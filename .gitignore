@@ -1,0 +1,60 @@
+# Global ignores
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+.DS_Store
+Thumbs.db
+
+# Ignore node_modules and Python venv globally
+node_modules/
+venv/
+.venv/
+ENV/
+env/
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore editor configs
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore build and dist
+build/
+dist/
+
+# Ignore database and cache
+*.db
+*.sqlite3
+.cache/
+db/
+chroma_db/
+temp.csv
+database/
+
+# Ignore frontend build artifacts
+dist-ssr/
+.next/
+.parcel-cache/
+.turbo/
+.vercel/
+coverage/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local files
+*.local
