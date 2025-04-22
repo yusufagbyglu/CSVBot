@@ -4,10 +4,8 @@ CSVBot is a full-stack application for examining CSV files using AI-powered feat
 
 ## Features
 
-- **CSV Upload & Management**: Upload, store, and manage CSV files.
-- **AI-Powered Query**: Ask questions about CSV data in natural language and get intelligent answers.
-- **Data Visualization**: Visualize CSV data with charts and tables.
-- **User Authentication** (optional): Secure access to your data.
+- **CSV Upload & Management**: Upload CSV files.
+- **AI-Powered Query**: Ask questions about CSV data in natural language and get    intelligent answers.
 - **RESTful API**: Backend exposes endpoints for file management and AI queries.
 - **Frontend**: Modern React app with Vite, supporting fast development and hot reloading.
 - **Dockerized**: Easily run the whole stack with Docker Compose.
